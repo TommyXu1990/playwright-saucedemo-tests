@@ -28,7 +28,7 @@ Verify that a standard user can log in, add an item to the cart, complete the ch
 | 7    | Click `Add to cart` |
 | 8    | Click on the cart icon |
 | 9    | Click `Checkout` |
-| 10   | Fill out First Name, Last Name, and Zip Code |
+| 10   | Fill out First Name `New`, Last Name `User`, and Zip Code `11111` |
 | 11   | Click `Continue` |
 | 12   | Verify summary page info (item, payment, shipping) is visible |
 | 13   | Click `Finish` |

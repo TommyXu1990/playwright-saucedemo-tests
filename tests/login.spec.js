@@ -1,7 +1,10 @@
 import { test, expect } from '@playwright/test';
 
 test('E2E Purchase Flow on SauceDemo', async ({ page }) => {
-  await page.pause();
+  // To pause the test and open Playwright Inspector for step-by-step debugging.
+  // Remove "//" from line 6 if you want the inspector to open.
+  //await page.pause();
+  
   // Visit login page
   await page.goto('https://www.saucedemo.com/');
 
